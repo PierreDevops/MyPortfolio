@@ -1,8 +1,149 @@
+/* TO-DO */
+/* 1 - Commentare bene ogni micro sezione per riuscire a capire al volo ogni selector che sosa "styla" (Anche in HTML)*/
+/* 2 - Tovare la giusta Color Palette per tutti i vari elementi  */
+/* 3 - Fare Mock delle altre 2 sezioni del sito  */
+/* 4 - Capire come evidenziare i commenti e sistemare in generale l'indentazione */
+/* Capire come fare le animazioni (transition - trasform) per: Icone linkedin e github, Portfolio, Button skill e vedere se serve anche altro
+
+/* GLOBAL STYLE  */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
 }
+/* GLOBAL STYLE - THE END */
+
+
+/* NAV MENU STYLE  */
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/homepage-background-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white; /* Da cambiare */
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logo span {
+    color: red; /* da cambiare */
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.nav-menu li a {
+    color: white; /* da cambiare */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav-menu li a:hover {
+    color: red; /* da cambiare */
+    transition: .4s;
+}
+
+/* I Button Verranno sostituiti dalle Icone */
+.social-btn li a {
+    background-color: red; /* da cambiare */
+    color: white;  /* da cambiare */
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 5px 12px;
+    font-weight: bold;
+    border-radius: 30px;
+    /* CAPIRE PERCHÈ NON FUNZIONA LA TRANSITION  */
+
+    /* transition: transform .4s; */
+}
+    /* CAPIRE PERCHÈ NON FUNZIONA IL TRANSFORM  */
+    
+/* .social-btn li a:hover {
+    transform: scale(1.2);
+} */
+
+/* NAV MENU STYLE - THE END */
+
+
+/* HOME PAGE CONTENT STYLE  */
+
+.content {
+    position: absolute;
+    top: 25%;
+    left: 30%
+}
+
+.content h1 {
+    color: white; /* da cambiare */
+    margin: 15px 0px 15px;
+    font-size: 75px;
+
+}
+
+.content h2 {
+    color: white; /* da cambiare */
+    font-size: 25px;
+    margin-bottom: 25px;
+ 
+}
+
+.content h3 {
+    color: white; /* da cambiare */
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+.content h4 {
+    color: white; /* da cambiare */
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.skill-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.skill-list li {
+    color: black; /* da cambiare */
+    border: 1px solid white; /* for debugging */
+    padding:  5px 20px 5px 20px;
+    margin: 0 15px;
+    border-radius: 50px;
+    background-color: white; /* da cambiare */
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* HOME PAGE CONTENT STYLE - THE END */
+
+
+
+
 
 
 
