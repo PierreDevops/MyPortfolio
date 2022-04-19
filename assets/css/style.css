@@ -15,8 +15,8 @@
 /* GLOBAL STYLE - THE END */
 
 
-/* NAV MENU STYLE  */
-.home {
+/* HOME PAGE STYLE  */
+.home-page {
     height: 100vh;
     width: 100%;
     background-image: url(../img/homepage-background-img.jpg);
@@ -24,6 +24,7 @@
     background-position: center;
 }
 
+/* NAV MENU STYLE  */
 nav {
     display: flex;
     align-items: center;
@@ -33,6 +34,7 @@ nav {
     padding-right: 8%;
 }
 
+/* Logo "Portfolio"  */
 .logo {
     color: white; /* Da cambiare */
     text-decoration: none;
@@ -45,6 +47,7 @@ nav {
     color: red; /* da cambiare */
 }
 
+/* Nav Menu  */
 nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -63,36 +66,33 @@ nav ul li {
     transition: .4s;
 }
 
-/* I Button Verranno sostituiti dalle Icone */
+/* Social Button  */
 .social-btn li a {
     background-color: red; /* da cambiare */
     color: white;  /* da cambiare */
     text-decoration: none;
     border: 2px solid transparent;
     padding: 5px 12px;
-    font-weight: bold;
+    font-weight: 400;
     border-radius: 30px;
-    /* CAPIRE PERCHÈ NON FUNZIONA LA TRANSITION  */
-
-    /* transition: transform .4s; */
+    display: block;
+    transition: .4s;
 }
-    /* CAPIRE PERCHÈ NON FUNZIONA IL TRANSFORM  */
-    
-/* .social-btn li a:hover {
+
+.social-btn li a:hover {
     transform: scale(1.2);
-} */
+}
 
 /* NAV MENU STYLE - THE END */
 
-
 /* HOME PAGE CONTENT STYLE  */
-
 .content {
     position: absolute;
     top: 25%;
     left: 30%
 }
 
+/* "Pierluigi Bertoli" */
 .content h1 {
     color: white; /* da cambiare */
     margin: 15px 0px 15px;
@@ -100,6 +100,7 @@ nav ul li {
 
 }
 
+/* "I'm a Web Developer" */
 .content h2 {
     color: white; /* da cambiare */
     font-size: 25px;
@@ -107,6 +108,7 @@ nav ul li {
  
 }
 
+ /* "Hello, my name is" */
 .content h3 {
     color: white; /* da cambiare */
     letter-spacing: 2px;
@@ -114,6 +116,7 @@ nav ul li {
 
 }
 
+/* "My Skills"  */
 .content h4 {
     color: white; /* da cambiare */
     text-align: center;
@@ -121,6 +124,7 @@ nav ul li {
 
 }
 
+/* Skill List  */
 .skill-list {
     list-style-type: none;
     display: flex;
@@ -137,10 +141,26 @@ nav ul li {
     font-weight: 600;
     cursor: pointer;
 }
-
-
 /* HOME PAGE CONTENT STYLE - THE END */
+/* HOME PAGE STYLE - THE END  */
 
+
+/* ABOUT-PAGE STYLE  */
+.about-page {
+    height: 100vh;
+    width: 100%;
+    background-color: red;  /* #010101 */
+}
+
+
+
+/* ABOUT-PAGE STYLE - THE END  */
+
+.contact-page {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
 
 
 
