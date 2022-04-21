@@ -68,7 +68,7 @@ nav ul li {
 
 /* Social Button  */
 .social-btn li a {
-    background-color: red; /* da cambiare */
+    /* background-color: red; da cambiare */
     color: white;  /* da cambiare */
     text-decoration: none;
     border: 2px solid transparent;
@@ -156,30 +156,74 @@ nav ul li {
 
 /* ABOUT-PAGE STYLE - THE END  */
 
+/* CONTACT PAGE STYLE  */
 .contact-page {
     height: 100vh;
     width: 100%;
-    background-color: blue;
+    background-color: #010101;
 }
 
 
-
-
-
-
-/* MEDIA QUERIES
-
-Mobile
-@media only screen and (max-width: 400px) {
+.contact-page-content {
+    color: white;
+    /* border: 2px solid white; */
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
 
 }
 
-Tablet
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
+/* Email  */
+.contact-page-content h1 {
+    /* border: 1px solid red; */
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 50px;
 }
 
-Desktop
-@media only screen and (min-width: 961px) {
+/* "Get in touch with me"  */
+.contact-page-content h2 {
+    /* border: 1px solid red; */
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 25px;
+    padding-left: 50px;
 
-} */
+    
+
+    
+}
+
+/* "At"  */
+.contact-page-content h3 {
+    /* border: 1px solid red; */
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.quote {
+    /* border: 1px solid red; */
+    font-weight: 400;
+    text-align: right;
+    font-size: 35px;
+    padding-right: 90px;
+    padding-top: 30px;
+    
+    
+}
+/* CONTACT PAGE STYLE - THE END  */
+
+
+
+
+
