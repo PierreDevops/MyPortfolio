@@ -6,6 +6,11 @@
     font-family: 'poppins', 'sans-serif';
 }
 
+
+
+
+
+/* ------------------------------------------------------------------ */
 /* HOME PAGE */
 .home-page {
     height: 100vh;
@@ -29,7 +34,7 @@ nav {
     text-decoration: none;
     font-size: 35px;
     letter-spacing: 1px;
-    cursor: pointer;
+    cursor: crosshair;
 }
 
 .logo span {
@@ -84,7 +89,7 @@ nav ul li {
 
 .content h1 span {
     display: inline-block;
-    cursor: pointer;
+    cursor: zoom-in;
     transition: 0.2s ease-out;
 }
 
@@ -124,43 +129,43 @@ nav ul li {
 }
 
 .skill-list li {
-    color: black; /* da cambiare */
-    border: 1px solid white; /* for debugging */
+    color: #ffffff; 
+    background-color: #141414; 
+    Border: 2px solid #ffffff;
     padding:  5px 20px 5px 20px;
+    font-size: 16px;
     margin: 0 15px;
-    border-radius: 50px;
-    background-color: white; /* da cambiare */
+    border-radius: 3px;
     font-weight: 600;
-    cursor: pointer;
+    cursor: crosshair;
+    transition: 0.4s;
 }
 
+.skill-list li:hover {
+    color: #e00000; 
+    Border: 2px solid #e00000;
+}
+
+/* To-Do:
+- Fare Check Colori e Opacità 
+- Sistemare Classi css
+- Sistemare Commenti e Indentazione*/
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------------------------------------ */
 /* ABOUT-PAGE STYLE  */
 .about-page {
     height: 100vh;
     width: 100%;
-    background-color: #191919;  
+    background-color: #141414;  
     padding: 125px 0px;
 }
 
 .about-container {
-    width: 1130px;
+    width: 1150px;
     margin: 0 auto;
     display: flex;
     justify-content: center; 
@@ -169,12 +174,17 @@ nav ul li {
 
 .about-image {
     height: auto;
-    width: 300px;
+    width: 350px;
 }
 
 .about-text {
-    width: 550px;
+    width: 650px;
+    height: 466.66px;
     margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }   
 
 .about-text-bio h2 {
@@ -186,6 +196,10 @@ nav ul li {
 
 }
 
+.about-text-bio h2 span {
+    color: #e00000; 
+}
+
 .about-text-bio h5 {
     color: #ffffff;
     font-size: 22px;
@@ -194,9 +208,6 @@ nav ul li {
     margin-bottom: 30px;
 }
 
-.about-text-bio h5 span {
-    color: red; /* Da cambiare */
-}
 
 .about-text-bio p {
     color: #ffffff;
@@ -204,19 +215,35 @@ nav ul li {
     letter-spacing: 1px;
     line-height: 28px;  
     margin-bottom: 50px;
+    text-align: left;
 }
 
 .about-text-quote {
     color: #ffffff;
+    text-align: right;
+    font-size: 19px;
 }
 
+.about-text-quote span {
+    color: #e00000;
+}
+
+/* To-Do:
+- Fare Check Colori e Opacità 
+- Sistemare Classi css
+- Sistemare Commenti e Indentazione*/
 
 
+
+
+
+/* ------------------------------------------------------------------ */
 /* CONTACT PAGE STYLE  */
 .contact-page {
     height: 100vh;
     width: 100%;
-    background-color: #191919;
+    background-color: #141414;
+    padding: 125px 0px;
 }
 
 
@@ -247,7 +274,7 @@ nav ul li {
     font-size: 45px;
     font-weight: 600;
     text-align: left;
-    padding-top: 150px;
+    /* padding-top: 150px; */
     padding-bottom: 25px;
     padding-left: 50px;
 
@@ -266,12 +293,6 @@ nav ul li {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
-
-/* CONTACT PAGE STYLE - THE END  */
-
-
-
 
 /* Social Button  */
 .social-btn li a {
