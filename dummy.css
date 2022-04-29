@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact-feedback-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.contact-container {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+
+.feedback-container {
+    width: 50%;
+    height: 100%;
+}
